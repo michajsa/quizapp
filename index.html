@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+    <section style="background-image: url('img/sun.jpeg');">
+
+    <div class="container">
+      <h1 class="title">Quiz App</h1>
+      <div class="row">
+        <form class="col-sm-7">
+      <div class="form-group">
+        <div id="question0">How many Baseball players are there in a baseball team?</div>
+        <input id="answer0" type="text" class="form-control">
+      </div>
+      <div class="form-group">
+        <div id="question1">Whats the name of BATMANs butler?</div>
+        <input id="answer1" type="text" class="form-control">
+      </div>
+       <div class="form-group">
+        <div id="question2">Who was the leader of the wolves in The Jungle Book?</div>
+        <input id="answer2" type="text" class="form-control">
+      </div>
+      <div class="form-group">
+        <div id="question3">Hg is the chemical symbol of which element?</div>
+        <input id="answer3" type="text" class="form-control">
+      </div>
+        <div id="question4">What is another word for lexicon?</div>
+        <input id="answer4" type="text" class="form-control">
+      </div>
+      <div>
+        <div id="question5"> 6 * 2?</div>
+        <input id="answer5" type="text" class="form-conrtol">
+      </div>
+      <br>
+      <button type="button" onclick="testResults()" class="btn btn-primary btn-lg">See Results</button>
+    </form>
+    <!-- Display correct and incorrect totals -->
+    <div class="col-sm-2 col-sm-offset-1">
+    <h1 class="correct">
+      Correct:
+      <span id="correct"></span>
+    </h1>
+    <h1 class="incorrect">
+      Incorrect:
+      <span id="incorrect"></span>
+    </h1>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script
+     src="https://code.jquery.com/jquery-3.2.1.min.js"
+     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+     crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src=js/main.js></script>
+  </body>
+
+</html>
